@@ -1,0 +1,42 @@
+.swiper {
+    z-index: 1;
+}
+
+.swiper-slide {}
+
+.swiper {
+    width: 100%;
+
+}
+
+.swiper-slide {}
+
+.mySwiper2 {
+
+    width: 100%;
+}
+
+.mySwiper {}
+
+.mySwiper .swiper-slide {
+    position: relative;
+}
+
+
+/* .mySwiper .swiper-slide::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    display: block;
+    background-color: #FFFFFF8C;
+    display: none;
+} */
+.activeTab {
+    display: none;
+}
+
+.mySwiper .swiper-slide-thumb-active .activeTab {
+    display: block;
+}

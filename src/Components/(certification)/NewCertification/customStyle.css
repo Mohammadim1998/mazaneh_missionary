@@ -1,0 +1,13 @@
+input.customRadio[type="radio"] {
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  background-color: #F8F8F8;
+  border-radius: 50%;
+  border: 1px solid #D1D1D1;
+}
+
+input.customRadio[type="radio"]:checked {
+ border: none;
+  background: url("/images/checkedTick.jpg");
+}

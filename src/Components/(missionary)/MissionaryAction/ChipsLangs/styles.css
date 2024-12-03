@@ -1,0 +1,31 @@
+.langsChipsTags input[type="checkbox"] {
+  appearance: none;
+  /* width:88px; */
+  width:100%;
+  height: 32px;
+  background-color: #ffffff;
+  border-radius: 36px;
+  border: 1px solid #E1E2E6;
+  flex-shrink: 0 !important;
+  cursor: pointer;
+}
+
+.langsChipsTags input[type="checkbox"]:checked {
+  appearance: none;
+  /* width:88px; */
+  width:100%;
+  height: 32px;
+  border-radius: 36px;
+  flex-shrink: 0 !important;
+  cursor: pointer;
+  background-color: #5461CA;
+}
+
+.langsChipsTags label {
+  /* width:88px; */
+  width:100%;
+  height: 32px;
+  border-radius: 36px;
+  flex-shrink: 0 !important;
+  cursor: pointer;
+}

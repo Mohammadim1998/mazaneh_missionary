@@ -1,0 +1,53 @@
+{
+  "name": "mobile-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev & npx next-video sync -w",
+    "build": "next build",
+    "start": "json-server --watch db.json -p 3004",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@fortawesome/fontawesome-svg-core": "^6.6.0",
+    "@fortawesome/free-solid-svg-icons": "^6.6.0",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@material-tailwind/react": "^2.1.9",
+    "@mui/material": "^5.15.11",
+    "@vidstack/player": "^1.6.5",
+    "@vidstack/player-react": "^1.6.5",
+    "@vidstack/react": "^1.12.12",
+    "antd": "^5.15.2",
+    "font-awesome": "^4.7.0",
+    "iconsax-react": "^0.0.8",
+    "jalali-moment": "^3.3.11",
+    "leaflet": "^1.9.4",
+    "leaflet-easybutton": "^2.4.0",
+    "mongoose": "^8.2.2",
+    "next": "14.1.0",
+    "next-pwa": "^5.6.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-form-stepper": "^2.0.3",
+    "react-hook-form": "^7.53.0",
+    "react-icons": "^5.3.0",
+    "react-leaflet": "^4.2.1",
+    "react-multi-date-picker": "^4.5.1",
+    "react-stepper-horizontal": "^1.0.11",
+    "redux": "^5.0.1",
+    "stylis": "^4.3.4",
+    "stylis-plugin-rtl": "^2.1.1",
+    "sweetalert": "^2.1.2",
+    "swiper": "^11.0.5",
+    "uuid": "^10.0.0",
+    "video-react": "^0.16.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.0.1",
+    "json-server": "^1.0.0-beta.1",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0"
+  }
+}

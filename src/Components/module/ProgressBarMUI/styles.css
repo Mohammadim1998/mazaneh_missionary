@@ -1,0 +1,71 @@
+.MuiStepLabel-iconContainer .Mui-completed {
+    width: 16px;
+}
+
+.MuiSvgIcon-root.Mui-active {
+    width: 20px;
+    height: 20px;
+    border-radius: 100% !important;
+    border: 5px solid #F7F8FC;
+    box-shadow: 0px 0px 2.5px 1.5px #00000026;
+    margin: 3px 0;
+    z-index: 10 !important;
+}
+
+.MuiStepLabel-iconContainer .muirtl-vnkopk-MuiStepLabel-iconContainer {
+    background-color: #B9976C;
+}
+
+.MuiStepLabel-root .Mui-active .MuiStepIcon-text {
+    display: none !important;
+}
+
+.MuiStepLabel-root .MuiStepIcon-text {
+    display: none !important;
+}
+
+.Mui-disabled .MuiStepIcon-root {
+    color: #F7F8Fc !important;
+    width: 16px !important;
+    height: 16px !important;
+    border: 2px solid #D9E0F4;
+    border-radius: 100% !important;
+    margin: 5px 0;
+    z-index: 10 !important;
+}
+
+.MuiSvgIcon-root {
+    color: #B9976C !important;
+}
+
+.MuiStepConnector-line {
+    min-width: 100% !important;
+    height: 2px !important;
+    background-color: #B9976C !important;
+}
+
+.MuiStepConnector-root {
+    margin: 0 -13px !important;
+    z-index: 1 !important;
+}
+
+.MuiStepConnector-root.Mui-disabled .MuiStepConnector-line {
+    background-color: #D9E0F4 !important;
+}
+
+.MuiStepLabel-label {
+    color: #000000 !important;
+    font-weight: 200 !important;
+    size: 10px !important;
+    text-align: center !important;
+}
+
+.MuiStepLabel-label.Mui-active {
+    color: #000000 !important;
+    font-weight: 200 !important;
+    size: 10px !important;
+}
+
+/* .MuiStepper-root {
+    margin: 0 -20px !important;
+} */

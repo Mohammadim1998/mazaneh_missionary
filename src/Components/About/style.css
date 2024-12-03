@@ -1,0 +1,17 @@
+/* .about .borderC {
+    border-color: linear-gradient(to top, #2b3275 0%, #2b327571 100%) !important;
+    border-radius: 25px;
+    border-width: 2px;
+    border-style: solid;
+  } */
+
+  .about .borderC {
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.00));
+    /* border-width: 4px;
+    border-style: solid; */
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    padding: 3px;
+    padding-bottom: 4px;
+  }

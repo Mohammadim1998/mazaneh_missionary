@@ -1,0 +1,74 @@
+.mainSliderRoot .swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.mainSliderRoot .swiper-slide {
+    position: none !important;
+    /*position: relative !important;*/
+    background-position: center;
+    background-size: cover;
+}
+
+.mainSliderRoot .swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+.mainSliderRoot .swiper-pagination {
+    width: 80px !important;
+    height: 20px !important;
+    position: absolute !important;
+    bottom: 90px !important;
+    left: 49% !important;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainSliderRoot .swiper-pagination-bullet {
+    width: 7px;
+    height: 7px;
+    opacity: 1 !important;
+    background-color: #DBDDE8 !important;
+    flex-shrink: 0 !important;
+}
+
+.mainSliderRoot .swiper-pagination-bullet-active {
+    width: 8px;
+    height: 8px;
+    background-color: #BE9966 !important;
+    background-color: #BE9966 !important;
+    flex-shrink: 0 !important;
+}
+
+.mainSliderRoot .removePagination:last-child .mainSliderRoot .swiper-pagination-bullet {
+    display: none !important;
+}
+
+.mainSliderRoot .registerBtn {
+    position: absolute !important;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.mainSliderRoot .swiper-button-next:active::after {
+    display: none !important;
+}
+
+.mainSliderRoot .swiper-button-next::after {
+    display: none !important;
+}
+
+.mainSliderRoot .swiper-button-next.mainSliderRoot .swiper-button-disabled {
+    display: none !important;
+}
+
+.mainSliderRoot .swiper-button-prev {
+    display: none !important;
+}
+/* .mainSliderRoot .bgportfolio {
+    background:blue url("/images/portfolio/bgportfolio.png") no-repeat;
+} */

@@ -1,0 +1,15 @@
+.chipsLangsInResumeTags input[type="checkbox"] {
+    appearance: none !important;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.chipsLangsInResumeTags input[type="checkbox"]:checked {
+    appearance: none !important;
+    width: 100%;
+    height: 100%;
+    background-color: #5461CA;
+    border-radius: 8px;
+}
