@@ -21,7 +21,7 @@ const SelectAddress = () => {
                 {/* End ProgressBar */}
             </div>
 
-            <section className="relative w-full h-screen flex flex-col justify-between">
+            <section className="relative w-full h-full flex flex-col justify-between">
                 <Link href={"/selectLocation"}>
                     <button className="absolute top-[38px] right-4 bg-[#B9976C] py-2 px-4 rounded-md text-white flex justify-center items-center gap-x-2 font-medium text-xs leading-5">
                         <div className="w-[14px] h-[14px] flex justify-center items-center"><img src="/images/svg/invite/locationWhite.svg" alt="" className="w-[11px] h-[11px]" /></div>

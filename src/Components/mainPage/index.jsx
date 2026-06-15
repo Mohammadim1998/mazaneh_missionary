@@ -24,7 +24,7 @@ const MainPage = () => {
     }, [])
 
     return (
-        <div className="relative startBG flex-col max-sm:w-full justify-center items-center min-h-dvh max-sm:flex hidden font-bold">
+        <div className="relative startBG flex-col max-sm:w-full justify-center items-center min-h-screen flex font-bold">
 
             <div className="absolute top-[36%] translate-y-[-36%] flex flex-col justify-center items-center gap-y-5">
                 <img src="/images/svg/Start/shamLogo.svg" alt="" />

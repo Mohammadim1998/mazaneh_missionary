@@ -55,8 +55,8 @@ const DashboardLocationComp = () => {
   
 
     return (
-        <main className="w-full h-full overflow-y-hidden">
-            <div className="relative w-full h-screen">
+        <main className="w-full h-screen overflow-y-hidden">
+            <div className="relative w-full h-full">
 
                 <Link href={"/dashboardHome"}>
                     <div className="shrink-0 z-40 absolute top-4 right-4 w-10 h-10 rotate-180 flex justify-center items-center shadow-[0px_2px_6px_0px_#00000033] cursor-pointer bg-white rounded-full"><img src="/images/svg/map/leftArrowDark.svg" alt="" className="" /></div>

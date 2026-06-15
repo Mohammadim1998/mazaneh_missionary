@@ -15,7 +15,7 @@ const CreateAddress = () => {
                 <HeaderInviteBox href={"selectLocation"} title={"ایجاد آدرس"} />
             </div>
 
-            <section className="w-full h-screen px-4 flex flex-col justify-between">
+            <section className="w-full h-full px-4 flex flex-col justify-between">
                 <div className="flex flex-col pt-[68px]">
                     <div className="flex flex-col">
                         <label htmlFor="selectADV" className="text-[#757579] mb-2 font-medium text-xs leading-5">

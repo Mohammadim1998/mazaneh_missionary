@@ -3,7 +3,7 @@ import Link from "next/link";
 const LoginCom = () => {
 
     return (
-        <div className="bg-[#26328D] w-screen h-dvh max-sm:block hidden overflow-x-hidden">
+        <div className="bg-[#26328D] w-full h-dvh overflow-x-hidden">
             <div className="relative bg-inherit w-full h-[25%] flex justify-center items-center">
                 <Link href={"/sliderPage"}>
                     <div className="absolute top-4 left-4"><img src="/images/svg/arrowLeft.svg" className="w-6 h-6" /></div>

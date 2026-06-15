@@ -20,9 +20,11 @@ const cacheRtl = createCache({
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
+      <body className="bg-gray-200 flex justify-center overflow-hidden">
         <CacheProvider value={cacheRtl}>
-          {children}
+          <div className="w-full max-w-xl min-h-screen bg-white overflow-auto">
+            {children}
+          </div>
         </CacheProvider>
       </body>
     </html>

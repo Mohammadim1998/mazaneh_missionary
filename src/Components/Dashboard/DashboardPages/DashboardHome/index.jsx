@@ -18,7 +18,7 @@ const DashboardHome = () => {
     // }, [openMunu]);
 
     return (
-        <main className="relative w-full bg-[#F6F6F6]">
+        <main className="relative w-full bg-[#F6F6F6] overflow-hidden">
             <div className="bgDashboard-mobile w-full h-[223px] mb-4">
 
                 <div className="container flex flex-col gap-y-6 px-4 pt-[18px] pb-[51px]">
@@ -147,7 +147,7 @@ const DashboardHome = () => {
             </div>
 
             {/* HAMBURGER MENU */}
-            <div onClick={(e) => e.stopPropagation()} className={`z-[60] fixed top-0 bottom-0 ${openMunu ? "right-0" : "right-[-100%]"} w-[66%] transition-all duration-500 h-full bg-white px-4 py-4 shadow-[-4px_0px_8px_0px_#00000040]`}>
+            <div onClick={(e) => e.stopPropagation()} className={`z-[60] absolute top-0 ${openMunu ? "right-0" : "right-[-100%]"} w-[66%] transition-all duration-500 min-h-screen bg-white px-4 py-4 shadow-[-4px_0px_8px_0px_#00000040]`}>
                 <div className="w-full">
                     <div onClick={() => setOpenMenu(false)} className="mr-auto w-6 h-6 flex justify-center items-center cursor-pointer border-[#00000033]  border-[1px] rounded-[4px] bg-inherit">
                         <img src="/images/svg/hamburger/close.svg" alt="" className="w-4 h-4" />

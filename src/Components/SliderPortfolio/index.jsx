@@ -65,7 +65,7 @@ export function SliderPortfolio() {
           data-swiper-parallax="-23%"
         ></div>
         <SwiperSlide>
-          <div className="relative w-full h-dvh grid grid-cols-1 grid-rows-2 bg-white">
+          <div className="relative w-full h-full grid grid-cols-1 grid-rows-2 bg-white">
             <section className="w-full bg-white">
               <div className="relative w-full h-full flex justify-center items-start">
 
@@ -97,7 +97,7 @@ export function SliderPortfolio() {
         </SwiperSlide>
 
         <SwiperSlide>
-          <div className="relative w-full h-dvh grid grid-cols-1 grid-rows-2 bg-white">
+          <div className="relative w-full h-full grid grid-cols-1 grid-rows-2 bg-white">
             <section className="w-full bg-white">
               <div className="relative w-full h-full flex justify-center items-start">
                 <div className='z-30 absolute left-0 top-2 w-[50%]'><img src="/images/portfolio/Vector-2-1.svg" alt="" /></div>
@@ -127,7 +127,7 @@ export function SliderPortfolio() {
         </SwiperSlide>
 
         <SwiperSlide>
-          <div className="relative w-full h-dvh grid grid-cols-1 grid-rows-2 bg-white">
+          <div className="relative w-full h-full grid grid-cols-1 grid-rows-2 bg-white">
             <section className="w-full bg-white">
               <div className="relative w-full h-full flex justify-center items-start">
                 <div className='z-30 absolute right-0 top-8 w-[30%]'><img src="/images/portfolio/Vector-3-1.svg" alt="" /></div>
@@ -157,7 +157,7 @@ export function SliderPortfolio() {
         </SwiperSlide>
 
         <SwiperSlide>
-          <div className="relative w-full h-dvh grid grid-cols-1 grid-rows-2 bg-white">
+          <div className="relative w-full h-full grid grid-cols-1 grid-rows-2 bg-white">
             <section className="w-full bg-white">
               <div className="relative w-full h-full flex justify-center items-start">
                 <div className='z-30 absolute left-0 top-8 w-[30%]'><img src="/images/portfolio/Vector-4-1.svg" alt="" /></div>
